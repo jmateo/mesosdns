@@ -1,0 +1,15 @@
+{
+  "zk": "zk://HOST_IP:2181/mesos",
+  "masters": ["HOST_IP:5050"],
+  "refreshSeconds": 60,
+  "ttl": 60,
+  "domain": "mesos",
+  "port": 53,
+  "resolvers": ["8.8.8.8"],
+  "timeout": 5, 
+  "httpport": 8123,
+  "listener": "HOST_IP",
+  "SOAMname": "ns1.mesos",
+  "SOARname": "root.ns1.mesos",
+  "IPSources": ["netinfo", "mesos", "host"]
+}
