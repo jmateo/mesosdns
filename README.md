@@ -1,4 +1,3 @@
-# MesosDns
 #MesosDns Dockerfile for Code Motion workshop
 
 This repo modifies slightly the official mesosphere/mesosdns Dockerfile adding the mesosDns config file to the image.
